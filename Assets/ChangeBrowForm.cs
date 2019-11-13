@@ -7,9 +7,9 @@ using Live2D.Cubism.Core;
 public class ChangeBrowForm : MonoBehaviour
 {
     [SerializeField]
-    CubismParameter ParamBrowLForm = null;
+    CubismParameter ParamBrowLForm;
     [SerializeField]
-    CubismParameter ParamBrowRForm = null;
+    CubismParameter ParamBrowRForm;
     // Start is called before the first frame update
     void Start()
     {
