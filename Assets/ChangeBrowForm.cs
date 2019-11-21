@@ -7,16 +7,8 @@ using Live2D.Cubism.Core;
 public class ChangeBrowForm : MonoBehaviour
 {
     [SerializeField]
-    CubismParameter ParamBrowLForm;
-    [SerializeField]
-    CubismParameter ParamBrowRForm;
-    // Start is called before the first frame update
-    void Start()
-    {
+    CubismParameter ParamBrowLForm, ParamBrowRForm;
 
-    }
-
-    // Update is called once per frame
     void LateUpdate()
     {
         if (Input.GetKey(KeyCode.Space))
